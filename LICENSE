@@ -1,0 +1,50 @@
+================================================================================
+다챱고 브라우저 (Dachapgo Browser) 사용권 계약서 — 공개 배포판
+================================================================================
+
+Copyright (c) 2026 다챱고 (Dachapgo). All Rights Reserved.
+
+다챱고 브라우저 실행 파일, 대시보드, API 서버, 지문 프리셋(이하 "소프트웨어")의 저작권은
+원저작자(다챱고)에게 있습니다. 소프트웨어는 오픈소스가 아니며, 소스 코드는 공개하지 않습니다.
+누구나 공식 배포처(https://github.com/ptliv/dachapgo-browser/releases)에서 내려받을 수는
+있지만, 사용은 아래 제1조의 라이선스 키를 받은 사람만 할 수 있습니다.
+
+제1조 (사용 허가)
+1. 원저작자가 RSA-2048 전자서명으로 발급한 유효한 라이선스 키(`DACHAPGO1.*`)를 받은
+   사람(피허가자)만, 원저작자가 정한 PC 대수와 기간 안에서 소프트웨어를 쓸 수 있습니다.
+2. 키가 없거나, 만료되었거나, 원저작자가 사용권을 정지(회수)한 경우 브라우저 실행·API 호출 등
+   일체의 사용이 허락되지 않습니다.
+
+제2조 (금지 행위)
+원저작자의 사전 서면 동의 없이 다음을 하지 않습니다.
+1. 발급받은 라이선스 키를 다른 사람과 공유하거나, 허가된 대수를 넘는 PC 에서 쓰는 행위
+2. 라이선스 검증, 전자서명 확인, 기기 식별(HWID), PC 대수 확인, 원격 회수 기능을
+   수정·우회·무력화하는 행위
+3. 소프트웨어를 역공학(디컴파일·디스어셈블)하거나 변조한 사본을 만들어 배포하는 행위
+4. 공식 배포처가 아닌 곳에 소프트웨어를 다시 올려 배포하거나 판매·대여하는 행위
+
+제3조 (정지 및 해지)
+피허가자가 본 계약을 위반하면 원저작자는 통보 없이 해당 라이선스 키와 PC 의 사용권을
+정지·폐기할 수 있으며, 피허가자는 보유한 사본을 삭제합니다.
+
+제4조 (보증의 부인 및 책임 제한)
+소프트웨어는 "있는 그대로(AS-IS)" 제공됩니다. 원저작자는 특정 목적 적합성, 무결성,
+제3자 플랫폼(웹사이트·SNS 등)의 정책 변경이나 계정 상태에 대해 어떤 보증도 하지 않으며,
+소프트웨어 사용으로 생긴 손해에 책임지지 않습니다. 각 웹사이트의 이용약관과 관련 법령을
+지키는 것은 사용자의 책임입니다.
+
+제5조 (제3자 구성 요소)
+소프트웨어에 함께 들어 있는 제3자 구성 요소(Fingerprint Chromium, Python, aiohttp, Pillow 등)는
+각자의 라이선스를 따릅니다. 목록과 전문은 THIRD_PARTY_NOTICES.md 와 licenses/ 폴더에 있습니다.
+본 계약은 그 구성 요소의 라이선스가 허락하는 권리를 제한하지 않습니다.
+
+--------------------------------------------------------------------------------
+DACHAPGO BROWSER LICENSE (PUBLIC DISTRIBUTION) — ENGLISH SUMMARY
+--------------------------------------------------------------------------------
+Copyright (c) 2026 Dachapgo. All Rights Reserved. Proprietary software; source code is not
+published. Anyone may download the official release, but use requires a valid license key
+(`DACHAPGO1.*`) signed and issued by the author, within the number of PCs and term the author
+sets. Sharing keys, exceeding the allowed PCs, circumventing license/HWID/seat/revocation checks,
+reverse engineering, and redistributing outside the official release page are prohibited.
+Provided "AS IS" without warranty. Bundled third-party components are licensed under their own
+terms (see THIRD_PARTY_NOTICES.md and licenses/), and nothing here limits those terms.
