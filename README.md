@@ -9,6 +9,8 @@ AdsPower Local API 와 같은 모양의 API(`http://127.0.0.1:50330/api/v1/...`)
 
 [**최신 판 내려받기 (Releases)**](https://github.com/ptliv/dachapgo-browser/releases/latest) → `Dachapgo-Browser-Windows-x64-<판>.zip`
 
+📖 [**사용법 PDF (화면 캡처 포함)**](https://github.com/ptliv/dachapgo-browser/releases/latest/download/Dachapgo-Browser-Guide-KO.pdf) — 설치·라이선스 등록·프로필 만들기·창 열기·API 연결·업데이트를 그림으로 설명합니다.
+
 - Windows 10/11 64비트
 - 받은 zip 이 맞는지는 같은 릴리스의 `.sha256` 값과 비교해 확인할 수 있습니다.
 
@@ -33,7 +35,7 @@ AdsPower Local API 와 같은 모양의 API(`http://127.0.0.1:50330/api/v1/...`)
 ## 새 판으로 올리기
 
 [Releases](https://github.com/ptliv/dachapgo-browser/releases/latest) 에서 새 zip 을 받아, 앱을 끈 뒤 같은 폴더에 덮어 풉니다. `data\`(프로필·라이선스)는 그대로 남습니다.
-앱의 업데이트 확인 버튼도 이 릴리스를 봅니다.
+앱의 업데이트 버튼은 새 판이 있으면 알려 주고, 누르면 이 릴리스 페이지를 엽니다(덮어 풀기는 직접).
 
 ## 라이선스
 
